@@ -4299,7 +4299,7 @@ ul.team-social li a {
 .single-contact-info {
   border: 1px solid #eee;
   text-align: center;
-  padding: 60px 70px;
+  padding: 60px 30px;
   margin-bottom: 30px;
 }
 
@@ -4314,6 +4314,11 @@ ul.team-social li a {
   margin-bottom: 20px;
 }
 
+@media (max-width: 492px) {
+  p{
+    font-size: 14px;
+  }
+}
 
 
 /*
