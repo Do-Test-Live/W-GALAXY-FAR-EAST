@@ -6499,7 +6499,7 @@ textarea.form-control-lg {
 @media screen and (max-width: 772px) {
     .carousel-caption {
         position: absolute;
-        top: 25%;
+        top: 10%;
         bottom: 75%;
         left: 20%;
         right: 20%;

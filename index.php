@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 
     <!--=====TITLE=======-->
-    <title>Galaxy Far East</title>
+    <title>Galaxy Far East Limited</title>
 
     <!--=====CSS=======-->
     <?php include('assets/include/css.php'); ?>
@@ -18,6 +18,22 @@
             padding-left: 0;
             margin-top: 0
 
+        }
+
+
+        .custom-btn{
+            background: #2658af;
+            color: white;
+            border: 1px solid #2658af;
+            font-weight: 600;
+        }
+
+
+        .custom-btn:hover{
+            background: #1e488f;
+            color: white;
+            border: 1px solid #2658af;
+            font-weight: 600;
         }
     </style>
 
@@ -61,7 +77,7 @@
         <li>
             <img src="assets/img/new/hero1.png" alt="">
             <div class="uk-position-center uk-position-small uk-text-center uk-light">
-                <h5 class="uk-margin-remove"><b>GALAXY FAR EAST </b> is a leading engineering construction and
+                <h5 class="uk-margin-remove"><b>Galaxy Far East Limited </b> is a leading engineering construction and
                     international
                     commodity trading company. （字体大一号）</h5>
                 <p class="uk-margin-remove"> We responsibly move physical commodities from places they are plentiful to
@@ -72,7 +88,7 @@
         <li>
             <img src="assets/img/new/hero2.png" alt="">
             <div class="uk-position-center uk-position-small uk-text-center uk-light">
-                <h3 class="uk-margin-remove"><b>GALAXY FAR EAST </b> is a leading engineering construction and
+                <h3 class="uk-margin-remove"><b>Galaxy Far East Limited </b> is a leading engineering construction and
                     international
                     commodity trading company. （字体大一号）</h3>
                 <p class="uk-margin-remove"> We responsibly move physical commodities from places they are plentiful to
@@ -83,7 +99,7 @@
         <li>
             <img src="assets/img/new/hero3.png" alt="">
             <div class="uk-position-center uk-position-small uk-text-center uk-light">
-                <h3 class="uk-margin-remove"><b>GALAXY FAR EAST </b> is a leading engineering construction and
+                <h3 class="uk-margin-remove"><b>Galaxy Far East Limited </b> is a leading engineering construction and
                     international
                     commodity trading company. （字体大一号）</h3>
                 <p class="uk-margin-remove"> We responsibly move physical commodities from places they are plentiful to
@@ -126,24 +142,25 @@
                 </div>
             </div>
             <div class="carousel-caption d-block  d-md-block">
-                <div class="  ">
+                <div class="text-left">
                     <h1 class="font-30 font-lg-40  line-height-lg-48 line-height-38 text-white" data-aos="fade-right"
-                        data-aos-duration="1300"><b>GALAXY FAR EAST </b> is a leading engineering construction and
+                        data-aos-duration="1300"><b>Galaxy Far East Limited </b> is a leading engineering construction and
                         international
                         commodity trading company.</h1>
                     <h6 class="font-20 line-height-38 font-lg-20  line-height-lg-48 text-white" data-aos="fade-right" data-aos-duration="1000">
                         We responsibly move physical commodities from places they are plentiful to where they are most
                         needed to build better world efficiently.
                     </h6>
+                    <a href="#our_commodities" class="btn btn-success custom-btn mt-2">Product</a>
                 </div>
             </div>
         </div>
         <div class="carousel-item">
             <img src="assets/img/new/hero2.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-block  d-md-block">
-                <div class="">
+                <div class="text-left">
                     <h1 class="font-30 font-lg-40  line-height-lg-48 line-height-38 text-white" data-aos="fade-right"
-                        data-aos-duration="1300"><b>GALAXY FAR EAST </b> is a leading engineering construction and
+                        data-aos-duration="1300"><b>Galaxy Far East Limited </b> is a leading engineering construction and
                         international
                         commodity trading company.</h1>
 
@@ -151,21 +168,23 @@
                         We responsibly move physical commodities from places they are plentiful to where they are most
                         needed to build better world efficiently.
                     </h6>
+                    <a href="#our_commodities" class="btn btn-success custom-btn mt-2">Product</a>
                 </div>
             </div>
         </div>
         <div class="carousel-item">
             <img src="assets/img/new/hero3.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-block  d-md-block ">
-                <div class="">
+                <div class="text-left">
                     <h1 class="font-30 font-lg-40  line-height-lg-48 line-height-38 text-white" data-aos="fade-right"
-                        data-aos-duration="1300"><b>GALAXY FAR EAST </b> is a leading engineering construction and
+                        data-aos-duration="1300"><b>Galaxy Far East Limited </b> is a leading engineering construction and
                         international
                         commodity trading company.</h1>
                     <h6 class="font-20 line-height-38 font-lg-20  line-height-lg-48   text-white"  data-aos="fade-right" data-aos-duration="1000">
                         We responsibly move physical commodities from places they are plentiful to where they are most
                         needed to build better world efficiently.
                     </h6>
+                    <a href="#our_commodities" class="btn btn-success custom-btn mt-2">Product</a>
                 </div>
             </div>
         </div>
@@ -195,7 +214,7 @@
                         data-aos-duration="1300"> Who We Are？</h1>
                     <div class="space8"></div>
                     <p style="text-align: justify" data-aos="fade-right" data-aos-duration="1000">
-                        <b>GALAXY FAR EAST LIMITED </b> was established in 2018, engages in engineering construction and
+                        <b>Galaxy Far East Limited LIMITED </b> was established in 2018, engages in engineering construction and
                         commodity
                         trading. Our industry has a long history, humans began civil engineering and barter trade
                         thousands of years ago.
@@ -221,22 +240,22 @@
                     <div class="row">
                         <div class="col-md-6 col-lg-4 col-sm-6 col-4 text-center">
                             <div class="counter-hadding" data-aos="zoom-out" data-aos-duration="1000">
-                                <h1 class="text-black">2 Countries </h1>
                                 <p class="fs-6">Active <br>(China & India)</p>
+                                <h1 class="text-black">2 Countries </h1>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-sm-6 col-lg-4 text-center col-4">
                             <div class="counter-hadding" data-aos="zoom-out" data-aos-duration="1600">
-                                <h1 class="text-black">4 Industries </h1>
                                 <p class="fs-6">Service</p>
+                                <h1 class="text-black">4 Industries </h1>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-sm-6 col-lg-4 text-center col-4">
                             <div class="counter-hadding" data-aos="zoom-out" data-aos-duration="1400">
-                                <h1 class="text-black">4 Locations </h1>
                                 <p class="fs-6">Offices</p>
+                                <h1 class="text-black">4 Locations </h1>
                             </div>
                         </div>
                     </div>
@@ -466,8 +485,7 @@
                     </div>
                     <div class="hadding3">
                         <p>
-                            Maximize your tax savings with expert consultation from our experienced team. Contact us
-                            today to schedule a consultation and take control of your finances."
+                            We responsibly move physical commodities from places they are plentiful to where they are most needed to build better world efficiently.
                         </p>
                     </div>
                 </div>
@@ -522,7 +540,7 @@
             <div class="row align-items-center copyright2">
                 <div class="col-lg-12 text-center">
                     <p class="font-16 weight-400 font-f-2 line-height-16 pera-c-1">
-                        © 2023 Galaxy Star East. All Rights Reserved.
+                        © 2023 Galaxy Far East Limited. All Rights Reserved.
                     </p>
                 </div>
             </div>
