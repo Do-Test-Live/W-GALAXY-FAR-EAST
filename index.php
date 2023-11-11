@@ -26,6 +26,8 @@
             color: white;
             border: 1px solid #2658af;
             font-weight: 600;
+            width: 150px;
+            font-size: 14px;
         }
 
 
@@ -34,6 +36,14 @@
             color: white;
             border: 1px solid #2658af;
             font-weight: 600;
+        }
+
+
+        @media only screen and (max-width: 550px) {
+            .custom-btn{
+                width: 75px;
+                font-size: 11px;
+            }
         }
     </style>
 
@@ -147,10 +157,6 @@
                         data-aos-duration="1300"><b>Galaxy Far East Limited </b> is a leading engineering construction and
                         international
                         commodity trading company.</h1>
-                    <h6 class="font-20 line-height-38 font-lg-20  line-height-lg-48 text-white" data-aos="fade-right" data-aos-duration="1000">
-                        We responsibly move physical commodities from places they are plentiful to where they are most
-                        needed to build better world efficiently.
-                    </h6>
                     <a href="#our_commodities" class="btn btn-success custom-btn mt-2">Product</a>
                 </div>
             </div>
@@ -163,11 +169,6 @@
                         data-aos-duration="1300"><b>Galaxy Far East Limited </b> is a leading engineering construction and
                         international
                         commodity trading company.</h1>
-
-                    <h6 class="font-20 line-height-38 font-lg-20  line-height-lg-48 text-white"  data-aos="fade-right" data-aos-duration="1000">
-                        We responsibly move physical commodities from places they are plentiful to where they are most
-                        needed to build better world efficiently.
-                    </h6>
                     <a href="#our_commodities" class="btn btn-success custom-btn mt-2">Product</a>
                 </div>
             </div>
@@ -180,10 +181,6 @@
                         data-aos-duration="1300"><b>Galaxy Far East Limited </b> is a leading engineering construction and
                         international
                         commodity trading company.</h1>
-                    <h6 class="font-20 line-height-38 font-lg-20  line-height-lg-48   text-white"  data-aos="fade-right" data-aos-duration="1000">
-                        We responsibly move physical commodities from places they are plentiful to where they are most
-                        needed to build better world efficiently.
-                    </h6>
                     <a href="#our_commodities" class="btn btn-success custom-btn mt-2">Product</a>
                 </div>
             </div>
@@ -214,7 +211,7 @@
                         data-aos-duration="1300"> Who We Are？</h1>
                     <div class="space8"></div>
                     <p style="text-align: justify" data-aos="fade-right" data-aos-duration="1000">
-                        <b>Galaxy Far East Limited LIMITED </b> was established in 2018, engages in engineering construction and
+                        <b>Galaxy Far East Limited </b> was established in 2018, engages in engineering construction and
                         commodity
                         trading. Our industry has a long history, humans began civil engineering and barter trade
                         thousands of years ago.
@@ -240,7 +237,7 @@
                     <div class="row">
                         <div class="col-md-6 col-lg-4 col-sm-6 col-4 text-center">
                             <div class="counter-hadding" data-aos="zoom-out" data-aos-duration="1000">
-                                <p class="fs-6">Active <br>(China & India)</p>
+                                <p class="fs-6">Active</p>
                                 <h1 class="text-black">2 Countries </h1>
                             </div>
                         </div>
