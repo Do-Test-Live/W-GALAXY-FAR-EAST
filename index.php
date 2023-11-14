@@ -537,7 +537,7 @@
             <div class="row align-items-center copyright2">
                 <div class="col-lg-12 text-center">
                     <p class="font-16 weight-400 font-f-2 line-height-16 pera-c-1">
-                        © 2023 Galaxy Far East Limited. All Rights Reserved.
+                        © 2023 <b>Galaxy Far East Limited</b>. All Rights Reserved.
                     </p>
                 </div>
             </div>
