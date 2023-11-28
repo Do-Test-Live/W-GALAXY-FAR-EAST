@@ -22,7 +22,6 @@
 <link rel="stylesheet" href="assets/css/animation.css"/>
 <link rel="stylesheet" href="assets/css/advisol-unit.css"/>
 <link rel="stylesheet" href="assets/css/advisol-core.css"/>
-<link rel="stylesheet" href="style.css"/>
 
 <!--=====JQUERY=======-->
 <script src="assets/js/jquery-3-6-0.min.js"></script>

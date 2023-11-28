@@ -13,7 +13,7 @@
     </div>
 </div>
 
-<div class="mobile-sidebar d-block d-lg-none  ">
+<div class="mobile-sidebar d-block d-lg-none" id="mobile-menu">
     <div class="menu-logo">
         <a href="#"><img src="assets/img/new/logo.png" alt=""></a>
     </div>

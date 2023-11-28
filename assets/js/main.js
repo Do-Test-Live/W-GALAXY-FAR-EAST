@@ -529,3 +529,27 @@ let progress3 = $('#progress3').LineProgressbar({
   percentage: 97
 });
 
+function scrollToId(id) {
+  let navbarHeight = 200;
+  let target = document.getElementById(id);
+  if (target) {
+    window.scrollTo({
+      top: target.offsetTop - navbarHeight,
+      behavior: 'smooth'
+    });
+  }
+}
+
+window.addEventListener('hashchange', function() {
+  let hash = window.location.hash.substring(1);
+  document.getElementById('mobile-menu').classList.remove("mobile-menu-active");
+  scrollToId(hash);
+});
+
+window.addEventListener('load', function() {
+  if (window.location.hash) {
+    let hash = window.location.hash.substring(1);
+    scrollToId(hash);
+  }
+});
+
