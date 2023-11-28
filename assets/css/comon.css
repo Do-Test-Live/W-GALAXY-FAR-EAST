@@ -74,6 +74,10 @@ a.home4-btn-plan:hover::after {
   transition: all.4s;
 }
 
+p{
+    font-weight: 700 !important;
+}
+
 .home4-button.home4-pricing-btn a {
     width: 100%;
     text-align: center;
@@ -392,6 +396,10 @@ padding-top: 8px;
   transition: all.4s;
 }
 
+.card-title{
+    font-weight: 900 !important;
+}
+
 .button3::before {
   content: "";
   position: absolute;
@@ -550,7 +558,7 @@ button.button3 {
 
 .hadding2 p {
   color: #565F76;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 28px;
   font-size: 16px;
   padding-top: 8px;

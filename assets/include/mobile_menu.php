@@ -21,14 +21,24 @@
         <i class="fa-solid fa-xmark"></i>
     </div>
     <div class="mobile-nav">
-        <li><a href="index.php">HOME</a>
+        <li><a href="index.php"><?php if ($_SESSION['lan'] == 'CN') echo '主頁'; else echo 'HOME' ?></a>
         </li>
-        <li><a href="#about_us">ABOUT US</a>
+        <li><a href="index.php#about_us"><?php if ($_SESSION['lan'] == 'CN') echo '關於我們'; else echo 'ABOUT US' ?></a>
         </li>
-        <li><a href="#our_commodities">OUR COMMODITIES</a>
+        <li><a href="index.php#our_commodities"><?php if ($_SESSION['lan'] == 'CN') echo '我們的商品'; else echo 'OUR COMMODITIES' ?></a>
         </li>
-        <li><a href="#contact">CONTACT US</a>
+        <li><a href="index.php#contact"><?php if ($_SESSION['lan'] == 'CN') echo '聯繫我們'; else echo 'CONTACT US' ?></a>
         </li>
+        <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" style="background-color: #1349a8;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Language
+            </a>
+
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="assets/include/lan.php?lan=EN">English</a></li>
+                <li><a class="dropdown-item" href="assets/include/lan.php?lan=CN">繁體中文</a></li>
+            </ul>
+        </div>
 
 
         <!--<div class="contact-mobile-menu-into">

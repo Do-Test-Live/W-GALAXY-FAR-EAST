@@ -1870,7 +1870,7 @@ padding-top: 16px
 
 @media screen and (max-width: 769px) {
   .counter-hadding h1 {
-    font-size: 19px;
+    font-size: 18px;
     line-height: 40px;
   }
 
@@ -2195,6 +2195,8 @@ letter-spacing: 0.24px;
   left: 0;
   bottom: 100px;
 }
+
+
 
 /*======== home1 choose area ===========*/
 
